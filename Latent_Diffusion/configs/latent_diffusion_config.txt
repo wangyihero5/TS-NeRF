@@ -1,0 +1,21 @@
+### INPUT
+prompt = a painting of ink splashing starry sky
+outdir = outputs/txt2img-samples
+skip_grid = True
+ddim_steps= 50
+n_repeat= 1
+plms= True
+ddim_eta= 0
+n_iter= 1
+H= 768
+W= 768
+n_samples= 1
+n_rows= 0
+scale= 5.0
+from-file= str
+config= configs/retrieval-augmented-diffusion/768x768.yaml
+ckpt= models/rdm/rdm768x768/model.ckpt
+clip_type= ViT-L/14
+database= artbench-surrealism
+use_neighbors= True
+knn= 1
